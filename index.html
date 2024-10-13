@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persona</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="image/FavIcon.png" sizes="192x192">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -25,7 +27,7 @@
     <!-- Banner Section Start -->
     <section>
 
-        <div id="default-carousel" class="relative w-full mt-[-10px]" data-carousel="slide">
+        <div id="pointer-carousel" class="relative w-full mt-[-10px]" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div
                 class="relative flex flex-col-reverse overflow-x-hidden overflow-y-hidden w-[100%] h-[670px] rounded-lg ">
@@ -112,7 +114,7 @@
     </section>
 
     <div class="absolute z-40 h-[70px] w-full top-[45.7rem] justify-center  bg-gray-800 opacity-90">
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center ">
             <ul class="relative px-14 mt-6 menu-horizontal flex text-white gap-11 ">
                 <li><a class="" href="#"><img class="w-[130px] mt-[-20px]" src="image/cropped-logo-1.png" alt=""></a>
                 </li>
@@ -140,22 +142,211 @@
     <section class="mt-16 mb-14">
         <div>
             <div class="flex justify-center">
-                <h2 class="text-5xl font-sans font-bold"><span class="text-red-700">THE</span> SALON</h2>
+                <h2 class="text-5xl font-oswald font-bold"><span class="text-red-700">THE</span> SALON</h2>
             </div>
-            <div class="grid grid-cols-4 gap-5 list-none mt-8 ml-[21rem]">
+            <div class="grid grid-cols-4 gap-16  list-none mt-8 ml-[21rem]">
                 <li><img src="image/salon1.jpg" alt=""></li>
                 <li><img src="image/salon2.jpg" alt=""></li>
                 <li><img src="image/salon3.jpg" alt=""></li>
             </div>
         </div>
+        <div class="ml-[200px]  mt-16">
+            <h2 class="text-2xl text-slate-600 font-bold">Welcome to Persona</h2>
+            <p class="mt-5 text-slate-500 text-xl font-semibold">Persona has proudly been one of the pioneers of beauty related services in Bangladesh since it was first established in 1998 and has since come a long and <br> joyful way. In these past 26 years, Persona has experienced immense growth and is now home to over 1,00,00,000 valuable customers who have availed <br> over 1,70,00,000 of Persona’s premium services. The high-quality services and achievements haven’t been bound to its 11 ladies beauty outlets only, but have <br> expanded and reached out to receive an opportunity to serve the men though the 6 outlets too. The Persona family of 3000 employees, with a complete <br> array of expertise, aims to enhance beauty using each and every square foot of the total 1,07,148 square feet made available to us. However, enhancing <br> beauty isn’t an easy task, and hence Persona has invested in multiple sister concerns apart from the ladies and men’s beauty outlets including Persona Health, <br> Persona Academy, Spring Spa and Canvas Magazine to cater to the beauty, fashion and health needs of all of the precious clients with utmost sincerity.</p>
+        </div>
     </section>
     <!-- The Salon Section End -->
 
+    <!-- Background Image -->
+     <section>
+        <div>
+            <div id="background">
+                <div class="fixed-desktop ">
+                    <div id="image" class="relative w-[100%] ">
+                        <img class="ml-[30%] " src="image/model-clipped.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bg-white h-[30rem] w-full z-40">
+                <h2 class="text-5xl font-oswald text-center mt-28 font-bold"><span class="text-red-600">OUR</span> SERVICES</h2>
+                <p class="text-center text-lg mt-7 text-slate-600 font-bold px-36">
+                    Everyone wants to look good, especially when it is the time to party. The idea behind hosting or going to parties is to meet the people you know as well as to make new friends. At the same time, you try to impress others by your dressing sense and looks, along with the way you carry yourself. The self-confidence comes when you know that you are  looking perfect, with the right make up and a dazzling ensemble. However, while getting ready for a night out, you need to know that party makeup also has some limits and  rules. New makeup trends are: Gloss, Glitter and Shimmer. <span class="text-2xl font-extrabold text-slate-700">Walk in today for Persona Special Makeup.</span>
+                </p>
+                <div class="grid grid-cols-3 px-36 ml-28 h-[300px]">
+                    <div>
+                        <h2 class="mt-16 ml-[100px] text-3xl font-bold">MAKEOVER</h2>
+                        <a href="#">
+                            <div id="image_details" class="relative rounded-full mt-8 border-[5px] bg-cover w-[320px] h-[320px] border-[#ff0000]" style="background-image: url(image/WhatsApp-Image-2020-07-08-at-4.13.59-PM-300x300.jpeg);">
+                                <h2 class="text-center z-10 text-red-700 text-3xl font-bold">Latest Styles</h2>
+                            </div>
+                        </a>
+                        <p class="text-center px-14">
+                            Are you bored of your hair color? Do you want to revamp your look? If yes, then the easiest way to change your look would be to opt for hair coloring. A new hair color can add a new dimension to your personality, making you look more confident and impressive. Color plus gloss  available for translucent colors which can lighten, darken or brighten hair.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="mt-16 ml-[150px] text-3xl font-bold">HAIR</h2>
+                        <a href="#">
+                        <div id="image_details" class="relative rounded-full mt-8 border-[5px] bg-cover w-[320px] h-[320px] border-[#ff0000]" style="background-image: url(image/WhatsApp-Image-2020-07-08-at-4.13.33-PM-255x300.jpeg);">
+                            <h2  class="text-center z-10 text-red-700 text-3xl font-bold">Experienced Cutters</h2>
+                        </div>
+                        </a>
+                        <p class="text-center px-14">
+                            Hairs can be straight, curly or wavy and this factor is one of the most  important one while choosing a proper hairstyle for an individual. They are  categorized according to degree of curl in the hair strand. Visit us today for latest and trendy haircuts and autumn  winter essential looks 2010-  2011 hairstyle collections. The next hair fashion revolution starts with  you.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="mt-16 ml-[150px] text-3xl font-bold">SKIN</h2>
+                        <a href="#">
+                        <div id="image_details" class="relative rounded-full mt-8 border-[5px] bg-cover w-[320px] h-[320px] border-[#ff0000]" style="background-image: url(image/WhatsApp-Image-2020-07-08-at-4.02.42-PM-200x300.jpeg);">
+                            <h2  class="text-center z-10 text-red-700 text-3xl  font-bold">Vibrant Colure</h2>
+                        </div>
+                        </a>
+                        <p class="text-center px-14">
+                            The first step to good foot care is to remove the hard skin from your feet.  You may have to use a pumice stone or apply cream generously on the  area in order to remove the dead foot skin. Soak your feet in a bowl of  slightly hot water. This will soften the dirt and the dead skin, which will  allow you to remove it easily. You could use a foot file as well, rub your  skin gently and rinse off the flaky residue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Background Image -->
+     <section class="absolute mt-[65rem] w-full -z-10">
+        <div id="background2">
+            <div class="fixed-desktop2 ">
+                <div id="image" class="relative w-[100%] ">
+                    <img class="ml-[30%] " src="image/model-clipped-2.png" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
 
+     <section class="w-full h-[700px] mt-[95rem] mb-20 z-10 bg-white">
+        <div>
+            <h2 class="text-5xl font-oswald text-center pt-24 font-bold"><span class="text-red-600">OUR</span> SISTER CONCERN</h2>
+            <p class="text-center text-lg font-semibold mt-5">This is a passion for us not just a job!</p>
+        </div>
+            <div class="">
+                <ul id="cardImage" class="m-5 list-none overflow-hidden text-center w-[100%]">
+                    <div class="flex justify-center items-center gap-16 w-[100%] ">
+                        <li class="w-44 h-44 inline-block m-3">
+                            <div id="statThumb" class="relative cursor-pointer w-[100%] h-[100%] rounded-full ">
+                                <div id="statInfo" class="overflow-hidden absolute w-[100%] h-[100%] rounded-full bg-[#ff0002]">
+                                    <h2  class="text-white uppercase relative text-center text-2xl font-bold h-10">
+                                        SPRING SPA
+                                    </h2>
+                                    <p class="text-white font-semibold text-center text-base">
+                                        Natural Makeover
+                                    </p>
+                                </div>
+                                <div id="statImage" style="background-image: url(image/stat-1-1.jpg);" class="w-[100%] h-[100%] rounded-full overflow-hidden absolute ">
+    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-44 h-44 inline-block m-3">
+                            <div id="statThumb" class="relative cursor-pointer w-[100%] h-[100%] rounded-full ">
+                                <div id="statInfo" class="overflow-hidden absolute w-[100%] h-[100%] rounded-full bg-[#ff0002]">
+                                    <h2  class="text-white uppercase relative text-center text-2xl font-bold h-10">
+                                        SPRING SPA
+                                    </h2>
+                                    <p class="text-white font-semibold text-center text-base">
+                                        Natural Makeover
+                                    </p>
+                                </div>
+                                <div id="statImage" style="background-image: url(image/stat-2-1.jpg);" class="w-[100%] h-[100%] rounded-full overflow-hidden absolute ">
+    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-44 h-44 inline-block m-3">
+                            <div id="statThumb" class="relative cursor-pointer w-[100%] h-[100%] rounded-full ">
+                                <div id="statInfo" class="overflow-hidden absolute w-[100%] h-[100%] rounded-full bg-[#ff0002]">
+                                    <h2  class="text-white uppercase relative text-center text-2xl font-bold h-10">
+                                        SPRING SPA
+                                    </h2>
+                                    <p class="text-white font-semibold text-center text-base">
+                                        Natural Makeover
+                                    </p>
+                                </div>
+                                <div id="statImage" style="background-image: url(image/stat-4-1.jpg);" class="w-[100%] h-[100%] rounded-full overflow-hidden absolute ">
+    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-44 h-44 inline-block m-3">
+                            <div id="statThumb" class="relative cursor-pointer w-[100%] h-[100%] rounded-full ">
+                                <div id="statInfo" class="overflow-hidden absolute w-[100%] h-[100%] rounded-full bg-[#ff0002]">
+                                    <h2  class="text-white uppercase relative text-center text-2xl font-bold h-10">
+                                        SPRING SPA
+                                    </h2>
+                                    <p class="text-white font-semibold text-center text-base">
+                                        Natural Makeover
+                                    </p>
+                                </div>
+                                <div id="statImage" style="background-image: url(image/stat-5-1.jpg);" class="w-[100%] h-[100%] rounded-full overflow-hidden absolute ">
+    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-44 h-44 inline-block m-3">
+                            <div id="statThumb" class="relative cursor-pointer w-[100%] h-[100%] rounded-full ">
+                                <div id="statInfo" class="overflow-hidden absolute w-[100%] h-[100%] rounded-full bg-[#ff0002]">
+                                    <h2  class="text-white uppercase relative text-center text-2xl font-bold h-10">
+                                        SPRING SPA
+                                    </h2>
+                                    <p class="text-white font-semibold text-center text-base">
+                                        Natural Makeover
+                                    </p>
+                                </div>
+                                <div id="statImage" style="background-image: url(image/stat-6-1.jpg);" class="w-[100%] h-[100%] rounded-full overflow-hidden absolute ">
+    
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <div id="background3">
+                    <div class="fixed-desktop3">
+                        <div id="image" class="relative w-[100%] ">
+                            <h2 class="text-center mt-52 text-5xl"><span class="font-bold">HOW CAN I</span> CONTROL MY LIFE <br>
+                                WHEN I CAN’T <span class="font-bold">CONTROL MY HAIR?</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </section>
+     <footer class="footer footer-center bg-white mt-60 text-white-content p-10">
+        <aside>
+          <p class="font-bold">
+            Follow, Like, Pin all the social stuff
+          </p>
+         
+        </aside>
+        <div class="border-2 px-60">
 
+        </div>
+        <nav>
+          <div class="grid grid-flow-col gap-7 ">
+           <a class="text-[55px]" href="#">
+            <i class="fa-brands fa-facebook"></i>
+           </a>
+           <a  class="text-[55px]" href="#">
+            <i class="fa-brands fa-instagram"></i>
+           </a>
+           <a class="text-[55px] " href="#">
+            <i class="fa-solid fa-ellipsis"></i>
+           </a>
+          </div>
+          <p class="mt-9 text-gray-400 opacity-80">Copyright © {new Date().getFullYear()} - All right reserved</p>
+        </nav>
+      </footer>
 
     <script src="js/main.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d69002f9fe.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>

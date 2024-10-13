@@ -1,8 +1,131 @@
-
-
 .oswald {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+
+#background .fixed-desktop {
+  background-image: url(image/parallax-1.jpg);
+  background-position: 50%;
+  width: 100%;
+  height: 480px;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-top: 10px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  z-index: 1;
+}
+
+#image_details {
+  margin: 20px auto 30px;
+}
+
+#image_details h2 {
+  height: 0%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: scale(0);
+
+}
+
+#image_details:hover h2 {
+  opacity: 1;
+  height: 100%;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  box-shadow: 0 0 0 155px rgba(255, 255, 255, 0.9) inset;
+  transform: scale(1);
+}
+
+
+
+#background2 .fixed-desktop2 {
+  background-image: url(image/parallax-1.jpg);
+  background-position: 50%;
+  width: 100%;
+  height: 480px;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-top: 10px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  z-index: 1;
+}
+
+#statThumb {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#statInfo h2 {
+  letter-spacing: 2px;
+  margin: 0 auto;
+  padding: 45px 0 0 0;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#statInfo p {
+  margin: 0px auto;
+    padding: 12px 5px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    margin-top: 45px;
+}
+
+#statImage {
+  box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.5);
+  content: '';
+  right: 0;
+  bottom: 0;
+  transform-origin: 95% 40%;
+  transition: all linear 0.5s;
+
+}
+#statImage:hover{
+  transition: all 0.3s;
+  transform: rotate(-110deg);
+}
+#statImage::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 100px;
+  top: 40%;
+  left: 95%;
+  margin: -4px 0 0 -4px;
+  background: rgb(50, 50, 50);
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
+}
+
+#background3 .fixed-desktop3 {
+  background-image: url(image/parallax-5.jpg);
+  background-position: 50%;
+  width: 100%;
+  height: 480px;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-top: 10px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  z-index: 1;
 }
