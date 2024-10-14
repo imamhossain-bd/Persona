@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Salon</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="image/FavIcon.png" sizes="192x192">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="h-36 w-full border-b-2 border-black">
+            <div class="flex justify-center items-center">
+                <a href="#"><img src="image/cropped-logo-1.png" alt="" /></a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Banner Section Start -->
+    <section>
+
+        <div id="pointer-carousel" class="relative w-full mt-[-10px]" data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div
+                class="relative flex flex-col-reverse overflow-x-hidden overflow-y-hidden w-[100%] h-[670px] rounded-lg ">
+                <!-- Item 1 -->
+
+                <div class="hidden duration-700 ease-in-out w-[100%] h-[670px]" data-carousel-item>
+                    <img src="image/image1.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="slide-content absolute text-center mt-[21rem] ml-[6%] text-white">
+
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out w-[100%] h-[670px]" data-carousel-item>
+                    <img src="image/image2.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="slide-content absolute text-center mt-[21rem] ml-[6%]">
+
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out w-[100%] h-[670px]" data-carousel-item>
+                    <img src="image/image3.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="slide-content absolute text-center mt-[21rem] ml-[6%] text-white">
+                        <p class="text-4xl text-center mb-20"><span
+                                class="text-red-600 text-4xl font-bold ">Parallax</span> <br>
+                            <span class="text-red-600 text-5xl font-bold ">Background</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out w-[100%] h-[670px]" data-carousel-item>
+                    <img src="image/image4.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="slide-content absolute mt-[21rem] ml-[6%] text-white">
+                        <p class="text-4xl text-center mb-20"><span
+                                class="text-red-600 text-4xl font-bold ">Responsive</span> <br>
+                            <span class="text-red-600 text-5xl font-bold ">Design</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out w-[100%] h-[670px]" data-carousel-item>
+                    <img src="image/image5.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="slide-content absolute text-center mt-[21rem] ml-[6%] text-white">
+                        <p class="text-4xl text-center mb-20"><span
+                                class="text-red-600 text-4xl font-bold ">Responsive</span> <br>
+                            <span class="text-red-600 text-5xl font-bold ">Design</span>
+                        </p>
+                        <p class="mb-16 mt-7 text-lg font-medium">Turn miles into memories.</p>
+                    </div>
+                </div>>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0  start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black dark:bg-gray-800/30 group-hover:bg-slate-500 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rotate-[90deg] rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black dark:bg-gray-800/30 group-hover:bg-slate-500 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rotate-90" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <div class="absolute z-40 h-[70px] w-full top-[45.7rem] justify-center  bg-gray-800 opacity-90">
+        <div class="flex items-center justify-center ">
+            <ul class="relative px-14 mt-6 menu-horizontal flex text-white gap-11 ">
+                <li><a class="" href="#"><img class="w-[130px] mt-[-20px]" src="image/cropped-logo-1.png" alt=""></a>
+                </li>
+                <li><a class="font-bold border-r-2 pr-6" href="index.html">HOME</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="salom.html">SALON</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="awards.html">AWARDS</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="#">SERVICE</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="#">PROMOTIONS</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="#">GALLERY</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="#">CSR</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="#">OUR CONCERN</a></li>
+                <li><a class="font-bold border-r-2 pr-6" href="#">CONTACT</a></li>
+                <li><a class="font-bold" href="#">APPOINTMENT</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="w-full h-3 mt-1 bg-red-700">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="salon" class="mt-16 mb-14">
+        <div>
+            <div class="flex justify-center">
+                <h2 class="text-5xl font-oswald font-bold"><span class="text-red-700">THE</span> SALON</h2>
+            </div>
+            <div class="grid grid-cols-4 gap-16  list-none mt-8 ml-[21rem]">
+                <li><img src="image/salon1.jpg" alt=""></li>
+                <li><img src="image/salon2.jpg" alt=""></li>
+                <li><img src="image/salon3.jpg" alt=""></li>
+            </div>
+        </div>
+        <div class="ml-[200px]  mt-16">
+            <h2 class="text-2xl text-slate-600 font-bold">Welcome to Persona</h2>
+            <p class="mt-5 text-slate-500 text-xl font-semibold">Persona has proudly been one of the pioneers of beauty related services in Bangladesh since it was first established in 1998 and has since come a long and <br> joyful way. In these past 26 years, Persona has experienced immense growth and is now home to over 1,00,00,000 valuable customers who have availed <br> over 1,70,00,000 of Persona’s premium services. The high-quality services and achievements haven’t been bound to its 11 ladies beauty outlets only, but have <br> expanded and reached out to receive an opportunity to serve the men though the 6 outlets too. The Persona family of 3000 employees, with a complete <br> array of expertise, aims to enhance beauty using each and every square foot of the total 1,07,148 square feet made available to us. However, enhancing <br> beauty isn’t an easy task, and hence Persona has invested in multiple sister concerns apart from the ladies and men’s beauty outlets including Persona Health, <br> Persona Academy, Spring Spa and Canvas Magazine to cater to the beauty, fashion and health needs of all of the precious clients with utmost sincerity.</p>
+        </div>
+    </section>
+
+
+    <footer class="footer footer-center bg-white mt-60 text-white-content p-10">
+        <aside>
+          <p class="font-bold">
+            Follow, Like, Pin all the social stuff
+          </p>
+         
+        </aside>
+        <div class="border-2 border-black px-60">
+
+        </div>
+        <nav>
+          <div class="grid grid-flow-col gap-7 ">
+           <a class="text-[55px]" href="#">
+            <i class="fa-brands fa-facebook"></i>
+           </a>
+           <a  class="text-[55px]" href="#">
+            <i class="fa-brands fa-instagram"></i>
+           </a>
+           <a class="text-[55px] " href="#">
+            <i class="fa-solid fa-ellipsis"></i>
+           </a>
+          </div>
+          <p class="mt-9 text-gray-400 opacity-80">Copyright © {new Date().getFullYear()} - All right reserved</p>
+        </nav>
+      </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d69002f9fe.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
